@@ -4,13 +4,13 @@ Pagina Red Ciudadana
 
 Este repositorio contiene el código fuente y los activos estáticas para [RedCiudadana.org](https://www.RedCiudadana.org). Obtenga más información sobre lo que hace Red Ciudadana en [nuestra pagina web](http://www.redciudadana.org/).
 
-SiteMAP Red Ciudadana
+Red Ciudadana
 ========================
 -[Inicio](http://www.redciudadana.org/).
--[Inicio](http://www.redciudadana.org/).
--[Inicio](http://www.redciudadana.org/).
--[Inicio](http://www.redciudadana.org/).
--[Inicio](http://www.redciudadana.org/).
+-[Nosotros](http://www.redciudadana.org/).
+-[Proyectos](http://www.redciudadana.org/).
+-[Blog](http://www.redciudadana.org/).
+-[Contacto](http://www.redciudadana.org/).
 
 Blog
 ========================
