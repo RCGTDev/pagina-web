@@ -20,61 +20,74 @@
         <meta property="og:image" content="http://vi-gt2015.s3.amazonaws.com/img/CandiDatosgt.png">
         <!--eoff-->
         
-        <link href="/css/flexslider.min.css" rel="stylesheet" type="text/css" media="all"/>
-        <link href="/css/line-icons.min.css" rel="stylesheet" type="text/css" media="all"/>
-        <link href="/css/elegant-icons.min.css" rel="stylesheet" type="text/css" media="all"/>
-        <link href="/css/lightbox.min.css" rel="stylesheet" type="text/css" media="all"/>
-        <link href="/css/bootstrap.min.css" rel="stylesheet" type="text/css" media="all"/>
-        <link href="/css/theme.css" rel="stylesheet" type="text/css" media="all"/>
-        <link href="/css/custom.css" rel="stylesheet" type="text/css" media="all"/>
+        
+        <link href="css/flexslider.min.css" rel="stylesheet" type="text/css" media="all"/>
+        <link href="css/line-icons.min.css" rel="stylesheet" type="text/css" media="all"/>
+        <link href="css/elegant-icons.min.css" rel="stylesheet" type="text/css" media="all"/>
+        <link href="css/lightbox.min.css" rel="stylesheet" type="text/css" media="all"/>
+        <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css" media="all"/>
+        <link href="css/theme.css" rel="stylesheet" type="text/css" media="all"/>
+        <link href="css/custom.css" rel="stylesheet" type="text/css" media="all"/>
         <!--[if gte IE 9]>
         	<link rel="stylesheet" type="text/css" href="css/ie9.css" />
 		<![endif]-->
         <link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,400,300,600,700%7CRaleway:700' rel='stylesheet' type='text/css'>
-        <script src="/js/modernizr-2.6.2-respond-1.1.0.min.js"></script>
-        
-        <link rel="shortcut icon" sizes="196x196" href="http://www.redciudadana.org/img/Logos/redciudadana1.png">
+        <script src="js/modernizr-2.6.2-respond-1.1.0.min.js"></script>
     </head>
-
-    <body class="boxed-layout no-loader">
+    <body>
     	<div class="loader">
     		<div class="spinner">
 			  <div class="double-bounce1"></div>
 			  <div class="double-bounce2"></div>
 			</div>
     	</div>
-				
+		
 		<div class="nav-container">
-			<nav class="simple-bar top-bar">
+			<nav class="top-bar overlay-bar">
 				<div class="container">
+				
+					<div class="row utility-menu">
+						<div class="col-sm-12">
+							<div class="utility-inner clearfix">
+								<span class="alt-font"><i class="icon icon_pin"></i> Edif. Geminis 10, Guatemala</span>
+								<span class="alt-font"><i class="icon icon_mail"></i> info@redciudadana.org.gt</span>
+							
+								<div class="pull-right">
+									<a href="http://eepurl.com/bEqZhv" class="btn btn-primary btn-white btn-xs" target="default">UNETE</a>
+									<a href="http://donacion.redciudadana.org/" class="btn btn-primary btn-filled btn-xs" target="default">QUIERO DONAR</a>
+									<a href="en.html" class="language"><img alt="English" src="img/english.png"></a>
+									<a href="http://www.redciudadana.org/" class="language"><img alt="Spanish" src="img/spanish.png"></a>
+								</div>
+							</div>
+						</div>
+					</div>
+				
+				
 					<div class="row nav-menu">
-						<div class="col-md-3 col-sm-3 columns">
-							<img class="logo logo-light" alt="Logo" src="/img/Logos/redciudadana1.png">
-							<img class="logo logo-dark" alt="Logo" src="/img/Logos/redciudadana1.png">
+						<div class="col-md-2 col-sm-3 columns">
+							<img class="logo logo-light logo-square" alt="Red Ciudadana" src="img/Logos/redblanco.png">
+							<img class="logo logo-dark logo-square" alt="Red Ciudadana" src="img/Logos/redciudadana1.png">
 						</div>
 					
-						<div class="col-md-9 col-sm-9 columns text-right">
+						<div class="col-md-10 col-sm-9 columns">
 							<ul class="menu">
-								
-								<li><a href="http://www.redciudadana.org/" class="inner-link" target="default">Inicio</a></li>
-								<li class="has-dropdown"><a href="http://www.redciudadana.org/#nosotros">nosotros</a>
+								<li><a href="#video-slider" class="inner-link" target="default">Inicio</a></li><li class="has-dropdown"><a href="#">nosotros</a>
 									<ul class="subnav">
-										<li><a href="http://www.redciudadana.org/#red-ciudadana" class="inner-link" target="default">RED CIUDADANA </a></li>
-										<li><a href="http://www.redciudadana.org/#historia" class="inner-link" target="default">HISTORIA</a></li>
-										<li><a href="http://www.redciudadana.org/#linea-de-tiempo" class="inner-link" target="default">LINEA DE TIEMPO</a></li>
-										<li><a href="http://www.redciudadana.org/#metodologia" class="inner-link" target="default">metodologia</a></li>
-										<li><a href="http://www.redciudadana.org/#equipo" class="inner-link" target="default">EQUIPO</a></li>
-										<li><a href="http://www.redciudadana.org/#medios" class="inner-link" target="default">publicaciones en medios</a></li>
-										<li><a href="http://www.redciudadana.org/#aliados" class="inner-link" target="default">aliados institucionales</a></li>
-										<li><a href="http://www.redciudadana.org/#" target="_blank">LABORATORIO&nbsp;</a></li>
+										<li><a href="#red-ciudadana" class="inner-link" target="default">RED CIUDADANA </a></li>
+										<li><a href="#historia" class="inner-link" target="default">HISTORIA</a></li>
+										<li><a href="#linea-de-tiempo" class="inner-link" target="default">LINEA DE TIEMPO</a></li>
+										<li><a href="#metodologia" class="inner-link" target="default">metodologia</a></li>
+										<li><a href="#equipo" class="inner-link" target="default">EQUIPO</a></li>
+										<li><a href="#medios" class="inner-link" target="default">publicaciones en medios</a></li>
+										<li><a href="#aliados" class="inner-link" target="default">aliados institucionales</a></li>
+										<li><a href="http://lab.redciudadana.org/" target="_blank">LABORATORIO&nbsp;</a></li>
 									</ul>
-								</li>
-									<li><a href="http://www.redciudadana.org/#proyectos" class="inner-link" target="default">pROYECTOS</a></li>
-									<li><a href="http://www.redciudadana.org/#cuadrantes-transparencia" class="inner-link" target="default">trANSPARENCIA</a></li>
-									<li><a href="blog.html" target="_blank">BLOG</a></li>
-									<li><a href="http://www.redciudadana.org/#contacto" class="inner-link" target="default">CONTACTO</a></li>
+								</li><li><a href="#proyectos" class="inner-link" target="default">pROYECTOS</a>
+								</li><li><a href="#cuadrantes-transparencia" class="inner-link" target="default">trANSPARENCIA</a></li>
+								<li><a href="blog.html" target="_blank">BLOG</a></li>
+								<li><a href="#contacto" class="inner-link" target="default">CONTACTO</a></li>
 							</ul>
-								
+		
 							<ul class="social-icons text-right">
 								<li>
 									<a href="https://twitter.com/RedxGuate" target="default">
@@ -100,61 +113,55 @@
 					<div class="mobile-toggle">
 						<i class="icon icon_menu"></i>
 					</div>
+					
 				</div>
 			</nav>
+		
 		</div>
 		
+		<!--INICIO DEL BLOG-->
 		<div class="main-container">
-		<section class="article-single">
+			<header class="page-header">
+				<div class="background-image-holder parallax-background">
+					<img class="background-image" alt="Background Image" src="img/hero6.jpg">
+				</div>
+				
 				<div class="container">
 					<div class="row">
-						<div class="col-sm-7">
-							<div class="article-body">
-								<p class="lead">
-									Discurso de toma de posesión del Presidente Jimmy Morales (2016-2020)</p>
-							
-								<p><div id='rg_embed_link_2406792' class='rg_embed_link' data-song-id='2406792'>Leer mas en <a href='http://genius.com/Red-ciudadana-discurso-de-toma-de-posesion-del-presidente-jimmy-morales-2016-2020-annotated'>“Discurso de toma de posesión del Presidente Jimmy Morales (2016-2020)” por Red Ciudadana</a></div> <script crossorigin src='//genius.com/songs/2406792/embed.js'></script><br></p>
-
-									
-								<div id="disqus_thread"></div>
-									<script>
-									/**
-									* RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
-									* LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables
-									*/
-									/*
-									var disqus_config = function () {
-									this.page.url = PAGE_URL; // Replace PAGE_URL with your page's canonical URL variable
-									this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
-									};
-									*/
-									(function() { // DON'T EDIT BELOW THIS LINE
-									var d = document, s = d.createElement('script');
-									
-									s.src = '//redciudadanaweb.disqus.com/embed.js';
-									
-									s.setAttribute('data-timestamp', +new Date());
-									(d.head || d.body).appendChild(s);
-									})();
-									</script>
-									<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
-							<!--End of DISQUS-->
-													
-							</div>
+						<div class="col-sm-12">
+							<span class="text-white alt-font"> </span>
+							<h1 class="text-white">Discurso de toma de posesión del Presidente Jimmy Morales (2016-2020)&nbsp;<br> </h1>
+							<p class="text-white lead">Transcripción del discurso. Haz click en porciones resaltados para ver el Análisis, Memes, GIFs y comentarios en vivo.<br></p>
 						</div>
 					</div>
-				</div>	
+				</div>
+			</header>
+			
+			<section class="blog-masonry bg-muted">
+				<div class="container">
+					<div class="row">
+						<div class="blog-masonry-container">
+						
+						<div id='rg_embed_link_2406792' class='rg_embed_link' data-song-id='2406792'>Read <a href='http://genius.com/Red-ciudadana-discurso-de-toma-de-posesion-del-presidente-jimmy-morales-2016-2020-annotated'>“Discurso de toma de posesión del Presidente Jimmy Morales (2016-2020)” by Red Ciudadana</a> on Genius</div> <script crossorigin src='//genius.com/songs/2406792/embed.js'></script>
+						
+						</div>
+					</div>
+				</div>
+			
+		
+				
 			</section>
 		</div>
+		
 		<!--FIN DEL BLOG-->
-
+		
 		<!--INICIO DEL FOOTER-->
 		<div class="footer-container">
 			<footer class="details">
 				<div class="container">
 					<div class="row">
 						<div class="col-sm-4">
-							<img alt="logo" class="logo" src="/img/Logos/redciudadana1.png">
+							<img alt="logo" class="logo" src="img/Logos/redciudadana1.png">
 							<p>Somos una organización sin fines de lucro, creada con la misión de incentivar la participación y la auditoría ciudadana. Nuestros proyectos están orientados a eliminar los obstáculos más comunes que interfieren con el ejercicio de la ciudadanía y con el fortalecimiento de la institucionalidad a través del uso innovador de la tecnología y de la comunicación.&nbsp;<br></p>
 						</div>
 						
@@ -183,13 +190,19 @@
 										<i class="icon social_youtube"></i>
 									</a>
 								</li>
+								
+								
+								
+								
+								
+								
 							</ul>
 						</div>
 					</div>
 					
 					<div class="row">
 						<div class="col-sm-12">
-							<span class="sub">© Copright 2015&nbsp;<a href="http://www.redciudadana.org/">Red Ciudadana</a>&nbsp;- Derechos Reservados</span>
+							<span class="sub">© Copright 2015&nbsp;<a href="#">Red Ciudadana</a>&nbsp;- Derechos Reservados</span>
 						</div>
 					</div>
 					
@@ -197,21 +210,20 @@
 			</footer>
 		</div>
 		<!--FIN DEL FOOTER-->
-
 				
 	<script src="https://www.youtube.com/iframe_api"></script>
-	<script src="/js/jquery.min.js"></script>
-        <script src="/js/jquery.plugin.min.js"></script>
-        <script src="/js/bootstrap.min.js"></script>
-        <script src="/js/jquery.flexslider-min.js"></script>
-        <script src="/js/smooth-scroll.min.js"></script>
-        <script src="/js/skrollr.min.js"></script>
-        <script src="/js/spectragram.min.js"></script>
-        <script src="/js/scrollReveal.min.js"></script>
-        <script src="/js/isotope.min.js"></script>
-        <script src="/js/twitterFetcher_v10_min.js"></script>
-        <script src="/js/lightbox.min.js"></script>
-        <script src="/js/jquery.countdown.min.js"></script>
-        <script src="/js/scripts.js"></script>
+	<script src="js/jquery.min.js"></script>
+        <script src="js/jquery.plugin.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/jquery.flexslider-min.js"></script>
+        <script src="js/smooth-scroll.min.js"></script>
+        <script src="js/skrollr.min.js"></script>
+        <script src="js/spectragram.min.js"></script>
+        <script src="js/scrollReveal.min.js"></script>
+        <script src="js/isotope.min.js"></script>
+        <script src="js/twitterFetcher_v10_min.js"></script>
+        <script src="js/lightbox.min.js"></script>
+        <script src="js/jquery.countdown.min.js"></script>
+        <script src="js/scripts.js"></script>
     </body>
 </html>
