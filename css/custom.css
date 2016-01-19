@@ -1,0 +1,34 @@
+.caja {
+    float: left;
+    width: 240px;
+    position: relative;
+}
+
+.caja.persona .team-1-member img {
+    width: 240px;
+}
+
+.caja.persona .team-1-member img.mirando {
+    position: absolute;
+    top: 0;
+    left: 0px;
+    -webkit-transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    -ms-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+    z-index: 1;
+    opacity: 0;
+}
+
+.caja.persona .team-1-member img.mirando.mostrar {
+    opacity: 1;
+}
+
+.caja.persona .team-1-member {
+    margin-top: 0px;
+}
+
+.caja.persona .team-1-member h5 {
+    margin-top: 10px;
+}
