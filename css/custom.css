@@ -1,11 +1,11 @@
 .caja {
     float: left;
-    width: 240px;
+    width: 203px;
     position: relative;
 }
 
 .caja.persona .team-1-member img {
-    width: 240px;
+    width: 203px;
 }
 
 .caja.persona .team-1-member img.mirando {
