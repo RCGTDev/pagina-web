@@ -55,19 +55,19 @@
 					<nav id="primary-menu">
 
 						<ul>
-							<li class="current"><a href="index.html"><div>Inicio</div></a>
+							<li class="current"><a href="#content"><div>Inicio</div></a>
 							</li> 
-							<li class="current"><a href="index.html"><div>Conferencistas</div></a>
+							<li class="current"><a href="#conferencistas"><div>Conferencistas</div></a>
 							</li> 
-							<li class="current"><a href="index.html"><div>Evento</div></a>
+							<li class="current"><a href="#evento"><div>Evento</div></a>
 							</li> 
-							<li class="current"><a href="index.html"><div>Agenda</div></a>
+							<li class="current"><a href="#agenda"><div>Agenda</div></a>
 							</li> 
-							<li class="current"><a href="index.html"><div>Sedes</div></a>
+							<li class="current"><a href="#sedes"><div>Sedes</div></a>
 							</li> 
-							<li class="current"><a href="index.html"><div>Contacto</div></a>
+							<li class="current"><a href=#contacto"><div>Contacto</div></a>
 							</li> 
-							<li class="current"><a href="index.html"><div>Inscripción</div></a>
+							<li class="current"><a href="#registro"><div>Inscripción</div></a>
 							</li>
 						</ul>
 
@@ -436,6 +436,70 @@
 	<!-- Footer Scripts
 	============================================= -->
 	<script type="text/javascript" src="js/functions.js"></script>
+	<script type="text/javascript">
+		jQuery(document).ready( function($){
+			var newDate = new Date(2016, 9, 31);
+			$('#countdown-ex1').countdown({until: newDate});
+		});
+
+		var cal = $( '#calendar' ).calendario( {
+			onDayClick : function( $el, $contentEl, dateProperties ) {
+
+				for( var key in dateProperties ) {
+					console.log( key + ' = ' + dateProperties[ key ] );
+				}
+
+			},
+			caldata : canvasEvents
+		} ),
+		$month = $( '#calendar-month' ).html( cal.getMonthName() ),
+		$year = $( '#calendar-year' ).html( cal.getYear() );
+
+		$( '#calendar-next' ).on( 'click', function() {
+			cal.gotoNextMonth( updateMonthYear );
+		} );
+		$( '#calendar-prev' ).on( 'click', function() {
+			cal.gotoPreviousMonth( updateMonthYear );
+		} );
+		$( '#calendar-current' ).on( 'click', function() {
+			cal.gotoNow( updateMonthYear );
+		} );
+
+		function updateMonthYear() {
+			$month.html( cal.getMonthName() );
+			$year.html( cal.getYear() );
+		}
+
+		$('#google-map4').gMap({
+			 address: 'Australia',
+			 maptype: 'ROADMAP',
+			 zoom: 3,
+			 markers: [
+				{
+					address: "Melbourne, Australia",
+					html: "Melbourne, Australia"
+				},
+				{
+					address: "Sydney, Australia",
+					html: "Sydney, Australia"
+				},
+				{
+					address: "Perth, Australia",
+					html: "Perth, Australia"
+				}
+			 ],
+			 doubleclickzoom: false,
+			 controls: {
+				 panControl: true,
+				 zoomControl: true,
+				 mapTypeControl: false,
+				 scaleControl: false,
+				 streetViewControl: false,
+				 overviewMapControl: false
+			 }
+		});
+	</script>
+
 
 	<!-- Portfolio Script
 	============================================= -->
