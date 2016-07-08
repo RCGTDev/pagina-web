@@ -133,22 +133,47 @@
 				<div class="container clearfix">
 
 					<div class="col_half">
-						<h3>World Map</h3>
-						<div id="vmap" style="height: 400px;"></div>
+						<h3>Universidad Rafael Landivar (URL)</h3>
+						<div class="team-image">
+						<img src="https://upload.wikimedia.org/wikipedia/commons/5/50/Landivar_Campus_Central.jpg" alt="Universidad Rafael Landívar">
+						</div>
 					</div>
 
 					<div class="col_half col_last">
-						<h3>USA Map</h3>
-						<div id="vmap2" style="height: 400px;"></div>
+						<h3>Mapa</h3>
+						<div id="vmap1" style="height: 400px;"></div>
 					</div>
 
 					<div class="col_half">
-						<h3>Europe Map</h3>
-						<div id="vmap3" style="height: 400px;"></div>
+						<h3>Escuela de Gobierno (EDG)</h3>
+						<div class="team-image">
+						<img src="https://scontent-mia1-1.xx.fbcdn.net/v/t1.0-9/13615121_680375472116467_7041506005710407869_n.jpg?oh=1eca80985391432d9f21cdfc82013fc3&oe=57F745A7" alt="Escuela de Gobierno (EDG)">
+						</div>
 					</div>
 
 					<div class="col_half col_last">
-						<h3>Germany Map</h3>
+						<h3>Mapa</h3>
+						<div id="vmap2" style="height: 400px;"></div>
+					</div>
+					<div class="col_half">
+						<h3>Congreso de la Republica de Guatemala</h3>
+						<div class="team-image">
+						<img src="http://lanoticiaenguatemala.com/wp-content/uploads/2016/01/P1040768_zps0d667259.jpg" alt="Congreso de la Republica de Guatemala">
+						</div>
+					</div>
+
+					<div class="col_half col_last">
+						<h3>Mapa</h3>
+						<div id="vmap3" style="height: 400px;"></div>
+					</div>
+					<div class="col_half">
+						<h3>Casa de Cervantes</h3>
+						<div class="team-image">
+						<img src="http://2.bp.blogspot.com/-CXskZH97gts/TsCb_YpyinI/AAAAAAAAH2w/YCd_paZjXhs/s1600/borrar3%2B035.jpg" alt="Casa Cervantes">
+						</div>
+					</div>
+					<div class="col_half col_last">
+						<h3>Mapa</h3>
 						<div id="vmap4" style="height: 400px;"></div>
 					</div>
 				</div>
@@ -252,48 +277,14 @@
 			$year.html( cal.getYear() );
 		}
 
-		$('#google-map4').gMap({
-			 address: 'Australia',
-			 maptype: 'ROADMAP',
-			 zoom: 3,
-			 markers: [
-				{
-					address: "Melbourne, Australia",
-					html: "Melbourne, Australia"
-				},
-				{
-					address: "Sydney, Australia",
-					html: "Sydney, Australia"
-				},
-				{
-					address: "Sydney, Australia",
-					html: "Sydney, Australia"
-				},
-				{
-					address: "Perth, Australia",
-					html: "Perth, Australia"
-				}
-			 ],
-			 doubleclickzoom: false,
-			 controls: {
-				 panControl: true,
-				 zoomControl: true,
-				 mapTypeControl: false,
-				 scaleControl: false,
-				 streetViewControl: false,
-				 overviewMapControl: false
-			 }
-		});
-		<script type="text/javascript">
-
 		$('#google-map1').gMap({
 
-			 address: 'Melbourne, Australia',
+			 address: 'Universidad Rafael Landívar, Guatemala',
 			 maptype: 'ROADMAP',
 			 zoom: 14,
 			 markers: [
 				{
-					address: "Melbourne, Australia"
+					address: "Universidad Rafael Landívar, Guatemala"
 				}
 			 ],
 			 doubleclickzoom: false,
@@ -308,12 +299,12 @@
 		});
 
 		$('#google-map2').gMap({
-			 address: 'New York, USA',
+			 address: 'Cayala, Guatemala',
 			 maptype: 'HYBRID',
 			 zoom: 12,
 			 markers: [
 				{
-					address: "New York, USA"
+					address: "Cayala, Guatemala"
 				}
 			 ],
 			 doubleclickzoom: false,
@@ -327,22 +318,14 @@
 			}
 		});
 
-		$('#google-map4').gMap({
-			 address: 'Australia',
+		$('#google-map3').gMap({
+			 address: 'Congreso de la República de Guatemala, 8A Avenida, Guatemala',
 			 maptype: 'ROADMAP',
 			 zoom: 3,
 			 markers: [
 				{
-					address: "Melbourne, Australia",
-					html: "Melbourne, Australia"
-				},
-				{
-					address: "Sydney, Australia",
-					html: "Sydney, Australia"
-				},
-				{
-					address: "Perth, Australia",
-					html: "Perth, Australia"
+					address: "Congreso de la República de Guatemala, 8A Avenida, Guatemala",
+					html: "Congreso de la República de Guatemala, 8A Avenida, Guatemala"
 				}
 			 ],
 			 doubleclickzoom: false,
@@ -356,22 +339,14 @@
 			}
 		});
 
-		$('#google-map5').gMap({
-			 address: 'Australia',
+		$('#google-map4').gMap({
+			 address: 'La Casa de Cervantes, 5A Calle, Guatemala',
 			 maptype: 'ROADMAP',
 			 zoom: 3,
 			 markers: [
 				{
-					address: "Melbourne, Australia",
-					html: "Melbourne, Australia"
-				},
-				{
-					address: "Sydney, Australia",
-					html: "Sydney, Australia"
-				},
-				{
-					address: "Perth, Australia",
-					html: "Perth, Australia"
+					address: "La Casa de Cervantes, 5A Calle, Guatemala",
+					html: "La Casa de Cervantes, 5A Calle, Guatemala"
 				}
 			 ],
 			 doubleclickzoom: false,
